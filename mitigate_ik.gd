@@ -15,7 +15,7 @@ func set_active(val):
 	set_process(val)
 
 
-func _bprocess(_delta):
+func _process(_delta):
 	var root = get_node(scene_root) as Spatial
 	var root_rotation = root.rotation
 	var model_rotation
